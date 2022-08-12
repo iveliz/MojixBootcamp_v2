@@ -1,6 +1,6 @@
 import streamlit as st 
 
-st.header.selectbox('Lenguage',[EN,ES])
+st.selectbox('Lenguage',[EN,ES])
 
 c1, c2, c3 = st.columns([1, 3, 3])
 c1.image('imagenes/avatar.jpg', width=45)
