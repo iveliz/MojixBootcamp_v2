@@ -1,19 +1,12 @@
 import streamlit as st 
+BLACK = '\033[30m'
+RED = '\033[31m'
+GREEN = '\033[32m'
+YELLOW = '\033[33m'
+BLUE = '\033[34m'
+MAGENTA = '\033[35m'
+CYAN = '\033[36m'
+WHITE = '\033[37m'
 
+st.print(YELLOW+"Hello from the mojix")
 
-st.write("Hello from the mojix")
-
-def my_decorator_name(name):
-    def my_custome_decorator(function):
-        def wrapper(*args, **kwargs):
-
-            print('Name:', name)
-            return function(*args, **kwargs)
-
-        return wrapper
-
-    return my_custome_decorator
-
-@my_decorator_name('CodigoFácilito')
-def suma(a, b):
-    return a + b
