@@ -10,7 +10,7 @@ c2.markdown('Iveliz A')
 #c3.text(['imagenes/linkedin.png']('https://www.linkedin.com/in/iveliz-alexandra-ayala-lopez-79b2691b1/)'))
 #c3.text(['imagenes/twitter_4.png']('https://sebastiandres.xyz'))
 
-c2.markdown(f"#### @sebastiandres en ![]({repo_path}/github.png) ![]({repo_path}/twitter.png) ![]({repo_path}/linkedin.png)")
+c2.markdown("#### @sebastiandres en ![]({repo_path}/github.png) ![]({repo_path}/twitter.png) ![]({repo_path}/linkedin.png)")
 st.title('10 Cool Beginner Python Tricks That Will Make Your Life Easier')
 
 
