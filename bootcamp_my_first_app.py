@@ -1,12 +1,30 @@
 import streamlit as st 
-BLACK = '\033[30m'
-RED = '\033[31m'
-GREEN = '\033[32m'
-YELLOW = '\033[33m'
-BLUE = '\033[34m'
-MAGENTA = '\033[35m'
-CYAN = '\033[36m'
-WHITE = '\033[37m'
 
-st.write(YELLOW+"Hello from the mojix")
+class textoGuia(st):
+    def init(self):
+        super().textoGuia()
+        
+        self.inicializar_gua()
+    
+    def inicializar_gua(self):
+        self.title("10 Cool Beginner Python Tricks That Will Make Your Life Easier")
+        self.geometry('300x3000')
+
+        texto = ""
+        self.lb1_texto = st.Label(self, text=texto)
+
+        self.fuente = st.StringVar()
+        self.fuente.trace('w', self.cambiar_fuente)
+
+        fuentes = ('Courier', 'Times')
+        opt_fuentes = st.OptionMenu(self, self.fuente, *fuentes)
+        self.tamgnio = tk.StringVar(self)
+        self.tamgnio.trace('w', self.cambiar_fuente)
+        spx_tamagnio = st.Spinbox(self, from=10, textvariable=self.tamagnio)
+
+        self.lb1_texto.pack(padx=20, pady=20)
+        opt_fuentes.pack(side=st.LEFT, fill=st.BOTH, expand=true)
+        spx_tamagnio.pack(side=st.LEFT, fill=st.BOTH, expand=true)
+     
+
 
