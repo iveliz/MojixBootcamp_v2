@@ -8,5 +8,5 @@ MAGENTA = '\033[35m'
 CYAN = '\033[36m'
 WHITE = '\033[37m'
 
-st.print(YELLOW+"Hello from the mojix")
+st.write(YELLOW+"Hello from the mojix")
 
