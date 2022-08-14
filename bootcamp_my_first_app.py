@@ -1,17 +1,10 @@
 import streamlit as st 
 
-
-
-c1, c2, c3 = st.columns([3, 3, 3])
-c1.image('imagenes/avatar.jpg', width=50)
-c2.markdown(f"#### @Iveliz A en ![]('imagenes/github.jpg') ![]('imagenes/linkedin.jpg') ![]('imagenes/twitter_4.jpg')")
-
-
-
 st.title('10 Cool Beginner Python Tricks That Will Make Your Life Easier')
 st.subheader('Simple but effective tips for every python lovers')
-st.image('imagenes/im.jpeg')
+st.image('imagenes/im.jpeg', caption='Photo by Miesha Maiden from Pexels')
 
+st.text('The compactness of Python can make a developer’s life a lot easier when writing lines and lines of code. But there are some lesser-known Python tricks that can surprise you with their amazing capabilities.In today’s article, I will discuss 10 Python tips and tricks that will be really helpful for beginners to write more compact code. Knowing these tips and tricks will definitely save you some valuable tim')
 
      
 
