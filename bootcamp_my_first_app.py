@@ -1,7 +1,5 @@
 import streamlit as st 
-[theme]
-backgroundColor='#ffffff'
-font='times roman'
+
 
 
 st.title('10 Cool Beginner Python Tricks That Will Make Your Life Easier')
