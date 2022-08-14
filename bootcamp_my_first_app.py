@@ -10,12 +10,17 @@ st.markdown('#### The compactness of Python can make a developer’s life a lot 
 st.markdown('#### In today’s article, I will discuss 10 Python tips and tricks that will be really helpful for beginners to write more compact code. Knowing these tips and tricks will definitely save you some valuable time.')
 
 st.header('1. Walrus operator')
-st.text('The Walrus or := operator is one of the latest additions to python 3.8. It is an assignment operator that lets you assign value to a variable within an expression like conditional statements, loops, etc.')
+st.markdown('##### The Walrus or := operator is one of the latest additions to python 3.8. It is an assignment operator that lets you assign value to a variable within an expression like conditional statements, loops, etc.')
+
 st.subheader('Example')
-st.text('If we want to check and print the length of a list:')
-st.code('Mylist = [1,2,3] if(l := len(mylist) > 2) print(l)')
+st.markdown('##### If we want to check and print the length of a list:')
+
+st.code('Mylist = [1,2,3]  print(l)')
+st.code('if(l := len(mylist) > 2)')
+st.code('print(1)')
+
 st.subheader('Output')
 st.code('3') 
-   
+
 
 
